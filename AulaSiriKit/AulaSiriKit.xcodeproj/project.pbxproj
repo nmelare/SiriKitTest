@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F72EC9E243B95B100594E7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72EC9D243B95B100594E7F /* AppDelegate.swift */; };
+		6F72ECA0243B95B100594E7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72EC9F243B95B100594E7F /* SceneDelegate.swift */; };
+		6F72ECA2243B95B100594E7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72ECA1243B95B100594E7F /* ViewController.swift */; };
+		6F72ECA5243B95B100594E7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F72ECA3243B95B100594E7F /* Main.storyboard */; };
+		6F72ECA7243B95B500594E7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F72ECA6243B95B500594E7F /* Assets.xcassets */; };
+		6F72ECAA243B95B500594E7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F72ECA8243B95B500594E7F /* LaunchScreen.storyboard */; };
+		6F72ECB8243B9B5000594E7F /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72ECB7243B9B5000594E7F /* IntentHandler.swift */; };
+		6F72ECC1243B9B5000594E7F /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F72ECC0243B9B5000594E7F /* IntentsUI.framework */; };
+		6F72ECC4243B9B5000594E7F /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72ECC3243B9B5000594E7F /* IntentViewController.swift */; };
+		6F72ECC7243B9B5000594E7F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F72ECC5243B9B5000594E7F /* MainInterface.storyboard */; };
+		6F72ECCB243B9B5000594E7F /* ExemploIntentsUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6F72ECBE243B9B5000594E7F /* ExemploIntentsUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6F72ECCE243B9B5000594E7F /* ExemploIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6F72ECB5243B9B5000594E7F /* ExemploIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6F72ECD7243B9D2A00594E7F /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 6F72ECD6243B9D2A00594E7F /* Intents.intentdefinition */; };
+		6F72ECD9243BA5C900594E7F /* SomaHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72ECD8243BA5C900594E7F /* SomaHandler.swift */; };
+		6F72ECDC243BA68C00594E7F /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 6F72ECD6243B9D2A00594E7F /* Intents.intentdefinition */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F72ECC9243B9B5000594E7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F72EC92243B95B100594E7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F72ECBD243B9B5000594E7F;
+			remoteInfo = ExemploIntentsUI;
+		};
+		6F72ECCC243B9B5000594E7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F72EC92243B95B100594E7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F72ECB4243B9B5000594E7F;
+			remoteInfo = ExemploIntents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6F72ECD5243B9B5000594E7F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6F72ECCB243B9B5000594E7F /* ExemploIntentsUI.appex in Embed App Extensions */,
+				6F72ECCE243B9B5000594E7F /* ExemploIntents.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6F72EC9A243B95B100594E7F /* AulaSiriKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AulaSiriKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F72EC9D243B95B100594E7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F72EC9F243B95B100594E7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6F72ECA1243B95B100594E7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F72ECA4243B95B100594E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F72ECA6243B95B500594E7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F72ECA9243B95B500594E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F72ECAB243B95B500594E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F72ECB5243B9B5000594E7F /* ExemploIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ExemploIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F72ECB7243B9B5000594E7F /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		6F72ECB9243B9B5000594E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F72ECBE243B9B5000594E7F /* ExemploIntentsUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ExemploIntentsUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F72ECC0243B9B5000594E7F /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		6F72ECC3243B9B5000594E7F /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		6F72ECC6243B9B5000594E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		6F72ECC8243B9B5000594E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F72ECD6243B9D2A00594E7F /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		6F72ECD8243BA5C900594E7F /* SomaHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomaHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F72EC97243B95B100594E7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F72ECB2243B9B5000594E7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F72ECBB243B9B5000594E7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F72ECC1243B9B5000594E7F /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F72EC91243B95B100594E7F = {
+			isa = PBXGroup;
+			children = (
+				6F72EC9C243B95B100594E7F /* AulaSiriKit */,
+				6F72ECB6243B9B5000594E7F /* ExemploIntents */,
+				6F72ECC2243B9B5000594E7F /* ExemploIntentsUI */,
+				6F72ECBF243B9B5000594E7F /* Frameworks */,
+				6F72EC9B243B95B100594E7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F72EC9B243B95B100594E7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F72EC9A243B95B100594E7F /* AulaSiriKit.app */,
+				6F72ECB5243B9B5000594E7F /* ExemploIntents.appex */,
+				6F72ECBE243B9B5000594E7F /* ExemploIntentsUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F72EC9C243B95B100594E7F /* AulaSiriKit */ = {
+			isa = PBXGroup;
+			children = (
+				6F72EC9D243B95B100594E7F /* AppDelegate.swift */,
+				6F72EC9F243B95B100594E7F /* SceneDelegate.swift */,
+				6F72ECA1243B95B100594E7F /* ViewController.swift */,
+				6F72ECA3243B95B100594E7F /* Main.storyboard */,
+				6F72ECA6243B95B500594E7F /* Assets.xcassets */,
+				6F72ECA8243B95B500594E7F /* LaunchScreen.storyboard */,
+				6F72ECAB243B95B500594E7F /* Info.plist */,
+			);
+			path = AulaSiriKit;
+			sourceTree = "<group>";
+		};
+		6F72ECB6243B9B5000594E7F /* ExemploIntents */ = {
+			isa = PBXGroup;
+			children = (
+				6F72ECB7243B9B5000594E7F /* IntentHandler.swift */,
+				6F72ECD8243BA5C900594E7F /* SomaHandler.swift */,
+				6F72ECD6243B9D2A00594E7F /* Intents.intentdefinition */,
+				6F72ECB9243B9B5000594E7F /* Info.plist */,
+			);
+			path = ExemploIntents;
+			sourceTree = "<group>";
+		};
+		6F72ECBF243B9B5000594E7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F72ECC0243B9B5000594E7F /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F72ECC2243B9B5000594E7F /* ExemploIntentsUI */ = {
+			isa = PBXGroup;
+			children = (
+				6F72ECC3243B9B5000594E7F /* IntentViewController.swift */,
+				6F72ECC5243B9B5000594E7F /* MainInterface.storyboard */,
+				6F72ECC8243B9B5000594E7F /* Info.plist */,
+			);
+			path = ExemploIntentsUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F72EC99243B95B100594E7F /* AulaSiriKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F72ECAE243B95B500594E7F /* Build configuration list for PBXNativeTarget "AulaSiriKit" */;
+			buildPhases = (
+				6F72EC96243B95B100594E7F /* Sources */,
+				6F72EC97243B95B100594E7F /* Frameworks */,
+				6F72EC98243B95B100594E7F /* Resources */,
+				6F72ECD5243B9B5000594E7F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F72ECCA243B9B5000594E7F /* PBXTargetDependency */,
+				6F72ECCD243B9B5000594E7F /* PBXTargetDependency */,
+			);
+			name = AulaSiriKit;
+			productName = AulaSiriKit;
+			productReference = 6F72EC9A243B95B100594E7F /* AulaSiriKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F72ECB4243B9B5000594E7F /* ExemploIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F72ECD2243B9B5000594E7F /* Build configuration list for PBXNativeTarget "ExemploIntents" */;
+			buildPhases = (
+				6F72ECB1243B9B5000594E7F /* Sources */,
+				6F72ECB2243B9B5000594E7F /* Frameworks */,
+				6F72ECB3243B9B5000594E7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExemploIntents;
+			productName = ExemploIntents;
+			productReference = 6F72ECB5243B9B5000594E7F /* ExemploIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		6F72ECBD243B9B5000594E7F /* ExemploIntentsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F72ECCF243B9B5000594E7F /* Build configuration list for PBXNativeTarget "ExemploIntentsUI" */;
+			buildPhases = (
+				6F72ECBA243B9B5000594E7F /* Sources */,
+				6F72ECBB243B9B5000594E7F /* Frameworks */,
+				6F72ECBC243B9B5000594E7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExemploIntentsUI;
+			productName = ExemploIntentsUI;
+			productReference = 6F72ECBE243B9B5000594E7F /* ExemploIntentsUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F72EC92243B95B100594E7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Nathalia Melare";
+				TargetAttributes = {
+					6F72EC99243B95B100594E7F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					6F72ECB4243B9B5000594E7F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					6F72ECBD243B9B5000594E7F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6F72EC95243B95B100594E7F /* Build configuration list for PBXProject "AulaSiriKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F72EC91243B95B100594E7F;
+			productRefGroup = 6F72EC9B243B95B100594E7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F72EC99243B95B100594E7F /* AulaSiriKit */,
+				6F72ECB4243B9B5000594E7F /* ExemploIntents */,
+				6F72ECBD243B9B5000594E7F /* ExemploIntentsUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F72EC98243B95B100594E7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F72ECAA243B95B500594E7F /* LaunchScreen.storyboard in Resources */,
+				6F72ECA7243B95B500594E7F /* Assets.xcassets in Resources */,
+				6F72ECA5243B95B100594E7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F72ECB3243B9B5000594E7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F72ECBC243B9B5000594E7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F72ECC7243B9B5000594E7F /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F72EC96243B95B100594E7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F72ECA2243B95B100594E7F /* ViewController.swift in Sources */,
+				6F72EC9E243B95B100594E7F /* AppDelegate.swift in Sources */,
+				6F72ECDC243BA68C00594E7F /* Intents.intentdefinition in Sources */,
+				6F72ECA0243B95B100594E7F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F72ECB1243B9B5000594E7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F72ECD7243B9D2A00594E7F /* Intents.intentdefinition in Sources */,
+				6F72ECB8243B9B5000594E7F /* IntentHandler.swift in Sources */,
+				6F72ECD9243BA5C900594E7F /* SomaHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F72ECBA243B9B5000594E7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F72ECC4243B9B5000594E7F /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F72ECCA243B9B5000594E7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F72ECBD243B9B5000594E7F /* ExemploIntentsUI */;
+			targetProxy = 6F72ECC9243B9B5000594E7F /* PBXContainerItemProxy */;
+		};
+		6F72ECCD243B9B5000594E7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F72ECB4243B9B5000594E7F /* ExemploIntents */;
+			targetProxy = 6F72ECCC243B9B5000594E7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F72ECA3243B95B100594E7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F72ECA4243B95B100594E7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F72ECA8243B95B500594E7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F72ECA9243B95B500594E7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6F72ECC5243B9B5000594E7F /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F72ECC6243B9B5000594E7F /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F72ECAC243B95B500594E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F72ECAD243B95B500594E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F72ECAF243B95B500594E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 679BRJ4243;
+				INFOPLIST_FILE = AulaSiriKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathaliamelare.AulaSiriKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F72ECB0243B95B500594E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 679BRJ4243;
+				INFOPLIST_FILE = AulaSiriKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathaliamelare.AulaSiriKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F72ECD0243B9B5000594E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 679BRJ4243;
+				INFOPLIST_FILE = ExemploIntentsUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathaliamelare.AulaSiriKit.ExemploIntentsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F72ECD1243B9B5000594E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 679BRJ4243;
+				INFOPLIST_FILE = ExemploIntentsUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathaliamelare.AulaSiriKit.ExemploIntentsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F72ECD3243B9B5000594E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 679BRJ4243;
+				INFOPLIST_FILE = ExemploIntents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathaliamelare.AulaSiriKit.ExemploIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F72ECD4243B9B5000594E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 679BRJ4243;
+				INFOPLIST_FILE = ExemploIntents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathaliamelare.AulaSiriKit.ExemploIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F72EC95243B95B100594E7F /* Build configuration list for PBXProject "AulaSiriKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F72ECAC243B95B500594E7F /* Debug */,
+				6F72ECAD243B95B500594E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F72ECAE243B95B500594E7F /* Build configuration list for PBXNativeTarget "AulaSiriKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F72ECAF243B95B500594E7F /* Debug */,
+				6F72ECB0243B95B500594E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F72ECCF243B9B5000594E7F /* Build configuration list for PBXNativeTarget "ExemploIntentsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F72ECD0243B9B5000594E7F /* Debug */,
+				6F72ECD1243B9B5000594E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F72ECD2243B9B5000594E7F /* Build configuration list for PBXNativeTarget "ExemploIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F72ECD3243B9B5000594E7F /* Debug */,
+				6F72ECD4243B9B5000594E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F72EC92243B95B100594E7F /* Project object */;
+}
